@@ -12,7 +12,7 @@
   }
   
   body {
-    background-color: rgba(45, 27, 14, 0.488);
+    background-color: rgba(32, 20, 11, 0.488);
 }
 
 main {
@@ -52,30 +52,11 @@ header {
 
 footer {
     background-color: rgb(67, 67, 67);
-    color: #f7f6f2c5;
+    color: #f7f6f2c5 !important;
     padding: 20px 0;
     /* margin-top: auto; */
     margin-top: 10px;
     text-align: center;
-}
-
-aside {
-    display: block;
-}
-
-.wrapper-content {
-    display: flex; /* размещаем элементы в строку */
-    flex-grow: 1; /* контейнер занимает доступное пространство */
-    justify-content: space-around;
-    
-}
-
-.sidebar {
-    width: 250px; /* фиксированная ширина */
-    background-color: #f7f6f2c5;
-    padding: 20px;
-    margin: 0 5px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* тень для визуального выделения */
 }
 
 .notifications-area {
@@ -86,3 +67,116 @@ aside {
     align-items: center; /* вертикаль */
 }
 
+h3 {
+    margin: 0;
+    font-weight: 400;
+}
+
+.brand {
+    font-weight: 400 !important;
+}
+
+p {
+    margin: 5px;
+}
+
+.wrapper-content {
+    display: flex; /* размещаем элементы в строку */
+    flex-grow: 1; /* контейнер занимает доступное пространство */
+    justify-content: space-around;
+    
+}
+
+aside {
+    display: block;
+}
+
+.sidebar {
+    width: 250px; /* фиксированная ширина */
+    background-color: #f7f6f2c5;
+    padding: 20px;
+    margin: 0 5px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* тень для визуального выделения */
+}
+
+.categories-filter {
+    margin-top: 6px;
+}
+
+.categories-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.categories-list label {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.categories-list input[type="checkbox"] {
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.price-input {
+    display: flex;
+    flex-direction: row;
+    gap: 5px; /* расстояние между полями */
+}
+
+.price-input label {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.form-control {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 80%; /* поля растягиваются на всю ширину */
+    box-sizing: border-box;
+}
+
+.apply-btn {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: rgba(32, 20, 11, 0.488);
+    color: #f7f6f2c5;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* кнопка на всю ширину контейнера */
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.apply-btn:hover {
+    background-color:  rgba(32, 20, 11, 0.588); /* более темный оттенок при наведении */
+}
+
+.apply-btn:active {
+    background-color:  rgba(32, 20, 11, 0.688); /* еще темнее при нажатии */
+}
+
+.header-sort {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.select-sort {
+    padding: 8px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
