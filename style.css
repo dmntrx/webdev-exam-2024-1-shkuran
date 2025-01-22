@@ -1,0 +1,88 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* высота страницы на весь экран */
+  }
+  
+  body {
+    background-color: rgba(45, 27, 14, 0.488);
+}
+
+main {
+    flex: 1; /* заполняет всё доступное пространство */
+    padding: 20px;
+    margin: 0 5px;
+    background-color: #f7f6f2c5;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: rgb(67, 67, 67);
+}
+
+header {
+    padding: 20px 0;
+    justify-items: center;
+    text-align: center;
+    background-color: #f7f6f2c5;
+}
+
+footer {
+    background-color: rgb(67, 67, 67);
+    color: #f7f6f2c5;
+    padding: 20px 0;
+    /* margin-top: auto; */
+    margin-top: 10px;
+    text-align: center;
+}
+
+aside {
+    display: block;
+}
+
+.wrapper-content {
+    display: flex; /* размещаем элементы в строку */
+    flex-grow: 1; /* контейнер занимает доступное пространство */
+    justify-content: space-around;
+    
+}
+
+.sidebar {
+    width: 250px; /* фиксированная ширина */
+    background-color: #f7f6f2c5;
+    padding: 20px;
+    margin: 0 5px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* тень для визуального выделения */
+}
+
+.notifications-area {
+    min-height: 40px;
+    margin: 5px;
+    display: flex;
+    justify-content: center; /* горизонталь */
+    align-items: center; /* вертикаль */
+}
+
