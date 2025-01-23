@@ -210,6 +210,12 @@ button:active {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-height: 300px;
+    position: relative;
+}
+
+.add-to-cart-btn {
+    margin-top: auto;
 }
 
 .product-card:hover {
@@ -259,10 +265,6 @@ button:active {
 .product-price .new-price {
     color: #b43123; /* красный цвет для скидки */
     font-weight: 500;
-}
-
-.add-to-cart-btn {
-    margin-top: auto !important;
 }
 
 /* header */
@@ -315,4 +317,7 @@ button:active {
     margin: 0;
 }
 
-
+/* отображение товаров (js) */
+.hidden {
+    display: none;
+}
