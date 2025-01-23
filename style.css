@@ -191,6 +191,9 @@ button:active {
 
 /* карточка товара */
 .product-card {
+    display: flex;
+    flex-direction: column; /* располагаем элементы вертикально */
+    justify-content: space-between; /* распределяем элементы */
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 15px;
@@ -210,7 +213,9 @@ button:active {
     width: 100%; /* ширина равна ширине карточки */
     height: 200px; /* фиксированная высота для всех изображений */
     object-fit: contain; /* изображение масштабируется, сохраняя пропорции */
-    background-color: #f8f8f8; /* фон для пустого пространства */
+    /* background-color: #f8f8f8; */
+    background-color: #fff;
+     /* фон для пустого пространства */
     border-radius: 4px;
     margin-bottom: 10px;
     display: block;
@@ -245,4 +250,8 @@ button:active {
 .product-price .new-price {
     color: #b43123; /* красный цвет для скидки */
     font-weight: 500;
+}
+
+.add-to-cart-btn {
+    margin-top: auto !important;
 }
