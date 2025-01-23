@@ -1,0 +1,246 @@
+[
+    {
+        "category": "Byredo",
+        "products": [
+            {
+                "title": "Byredo Blanche Eau De Parfum 100ml",
+                "image": "images/byredo/byredo-blanche.jpg",
+                "currentPrice": 31760,
+                "discount": false,
+                "rating": 4.7
+            },
+            {
+                "title": "Byredo Desert Dawn Eau De Parfum 100ml",
+                "image": "images/byredo/byredo-desertdawn.jpg",
+                "currentPrice": 29990,
+                "oldPrice": 31760,
+                "discount": true,
+                "rating": 4.3
+            },
+            {
+                "title": "Byredo Gypsy Water Eau De Parfum 100ml",
+                "image": "images/byredo/byredo-gypsywater.jpg",
+                "currentPrice": 21660,
+                "oldPrice": 22330,
+                "discount": true,
+                "rating": 4.5
+            },
+            {
+                "title": "Byredo Casablanca Lily Extrait De Parfum 100ml",
+                "image": "images/byredo/byredo-casablancalily.jpg",
+                "currentPrice": 37220,
+                "discount": false,
+                "rating": 4.8
+            },
+            {
+                "title": "Byredo Reine De Nuit Extrait De Parfum 100ml",
+                "image": "images/byredo/byredo-reinedenuit.jpg",
+                "currentPrice": 37500,
+                "discount": false,
+                "rating": 4.9
+            },
+            {
+                "title": "Byredo Tobacco Mandarin Extrait De Parfum 100ml",
+                "image": "images/byredo/byredo-tobaccomandarin.jpg",
+                "currentPrice": 36990,
+                "oldPrice": 37220,
+                "discount": true,
+                "rating": 4.7
+            }
+        ]
+    },
+    {
+        "category": "Givenchy",
+        "products": [
+            {
+                "title": "Givenchy Ange Ou Demon Eau De Parfum 50ml",
+                "image": "images/givenchy/givenchy-angeoudemon.jpg",
+                "currentPrice": 8550,
+                "oldPrice": 9100,
+                "discount": true,
+                "rating": 4.7
+            },
+            {
+                "title": "Givenchy Ange ou Demon Le Secret Eau De Parfum 50ml",
+                "image": "images/givenchy/givenchy-angeoudemonlesecret.jpg",
+                "currentPrice": 8800,
+                "discount": false,
+                "rating": 4.7
+            },
+            {
+                "title": "Givenchy Irresistible Eau De Parfum 50ml",
+                "image": "images/givenchy/givenchy-irresistible.jpg",
+                "currentPrice": 10000,
+                "oldPrice": 10420,
+                "discount": true,
+                "rating": 4.7
+            },
+            {
+                "title": "Givenchy Irresistible Nude Velvet Eau De Parfum 50ml",
+                "image": "images/givenchy/givenchy-irresistiblenudevelvet.jpg",
+                "currentPrice": 12400,
+                "discount": false,
+                "rating": 4.6
+            },
+            {
+                "title": "Givenchy L'Interdit Eau De Parfum 50ml",
+                "image": "images/givenchy/givenchy-linterdit.jpg",
+                "currentPrice": 10990,
+                "discount": false,
+                "rating": 4.8
+            },
+            {
+                "title": "Givenchy L'Interdit Rouge Eau De Parfum 50ml",
+                "image": "images/givenchy/givenchy-linterditrouge.jpg",
+                "currentPrice": 13400,
+                "discount": false,
+                "rating": 4.6
+            }
+        ]
+    },
+    {
+        "category": "Jo Malone",
+        "products": [
+            {
+                "title": "Jo Malone Blue Agava & Cacao Cologne 100ml",
+                "image": "images/jo malone/jomalone-blueagavacacao.jpg",
+                "currentPrice": 16500,
+                "discount": false,
+                "rating": 4.7
+            },
+            {
+                "title": "Jo Malone Fig & Lotus Flower Cologne 100ml",
+                "image": "images/jo malone/jomalone-figlotusflower.jpg",
+                "currentPrice": 16000,
+                "oldPrice": 16500,
+                "discount": true,
+                "rating": 4.6
+            },
+            {
+                "title": "Jo Malone Nutmeg & Ginger Cologne 100ml",
+                "image": "images/jo malone/jomalone-nutmegginger.jpg",
+                "currentPrice": 16500,
+                "discount": false,
+                "rating": 4.5
+            },
+            {
+                "title": "Jo Malone Myrrh & Tonka Cologne Intense 50ml",
+                "image": "images/jo malone/jomalone-myrrhtonka.jpg",
+                "currentPrice": 16000,
+                "discount": false,
+                "rating": 4.7
+            },
+            {
+                "title": "Jo Malone Tuberose Angelica Cologne Intense 50ml",
+                "image": "images/jo malone/jomalone-tuberoseangelica.jpg",
+                "currentPrice": 16000,
+                "discount": false,
+                "rating": 4.7
+            },
+            {
+                "title": "Jo Malone Velvet Rose & Oud Cologne Intense 50ml",
+                "image": "images/jo malone/jomalone-velvetroseoud.jpg",
+                "price": 16000,
+                "currentPrice": false,
+                "rating": 4.6
+            }
+        ]
+    },
+    {
+        "category": "Kilian",
+        "products": [
+            {
+                "title": "Kilian Angels' Share Eau De Parfum 50ml",
+                "image": "images/kilian/kilian-angelsshare.jpg",
+                "currentPrice": 25500,
+                "discount": false,
+                "rating": 4.6
+            },
+            {
+                "title": "Kilian Apple Brandy On The Rocks Eau De Parfum 50ml",
+                "image": "images/kilian/kilian-applebrandy.jpg",
+                "currentPrice": 25500,
+                "discount": false,
+                "rating": 4.5
+            },
+            {
+                "title": "Kilian Old Fashioned Eau De Parfum 50ml",
+                "image": "images/kilian/kilian-oldfashioned.jpg",
+                "currentPrice": 26990,
+                "oldPrice": 27500,
+                "discount": true,
+                "rating": 4.6
+            },
+            {
+                "title": "Kilian Back To Black Eau De Parfum 50ml",
+                "image": "images/kilian/kilian-backtoblack.jpg",
+                "currentPrice": 29500,
+                "discount": false,
+                "rating": 4.8
+            },
+            {
+                "title": "Kilian Old Fashioned Eau De Parfum 50ml",
+                "image": "images/kilian/kilian-oldfashioned.jpg",
+                "currentPrice": 26990,
+                "oldPrice": 27500,
+                "discount": true,
+                "rating": 4.6
+            },
+            {
+                "title": "Kilian Back To Black Eau De Parfum 50ml",
+                "image": "images/kilian/kilian-backtoblack.jpg",
+                "currentPrice": 29500,
+                "discount": false,
+                "rating": 4.8
+            }
+        ]
+    },
+    {
+        "category": "Tom Ford",
+        "products": [
+            {
+                "title": "Tom Ford Ebene Fume Eau De Parfum 50ml",
+                "image": "images/tom ford/tomford-ebenefume.jpg",
+                "currentPrice": 25000,
+                "oldPrice": 27500,
+                "discount": true,
+                "rating": 4.3
+            },
+            {
+                "title": "Tom Ford Oud Wood Parfum 50ml",
+                "image": "images/tom ford/tomford-oudwood.jpg",
+                "currentPrice": 27000,
+                "discount": false,
+                "rating": 4.6
+            },
+            {
+                "title": "Tom Ford Vanille Fatale Eau De Parfum 50ml",
+                "image": "images/tom ford/tomford-vanillefatale.jpg",
+                "currentPrice": 25500,
+                "discount": false,
+                "rating": 4.3
+            },
+            {
+                "title": "Tom Ford London Eau De Parfum 50ml",
+                "image": "images/tom ford/tomford-london.jpg",
+                "currentPrice": 31000,
+                "discount": false,
+                "rating": 4.8
+            },
+            {
+                "title": "Tom Ford Tobacco Vanille Eau De Parfum 50ml",
+                "image": "images/tom ford/tomford-tobaccovanille.jpg",
+                "currentPrice": 25500,
+                "discount": false,
+                "rating": 4.5
+            },
+            {
+                "title": "Tom Ford Tuscan Leather Eau De Parfum 50ml",
+                "image": "images/tom ford/tomford-tuscanleather.jpg",
+                "currentPrice": 29900,
+                "discount": false,
+                "rating": 4.4
+            }
+        ]
+    }
+]
