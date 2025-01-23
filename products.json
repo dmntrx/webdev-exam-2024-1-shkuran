@@ -140,8 +140,8 @@
             {
                 "title": "Jo Malone Velvet Rose & Oud Cologne Intense 50ml",
                 "image": "images/jo malone/jomalone-velvetroseoud.jpg",
-                "price": 16000,
-                "currentPrice": false,
+                "currentPrice": 16000,
+                "discount": false,
                 "rating": 4.6
             }
         ]
