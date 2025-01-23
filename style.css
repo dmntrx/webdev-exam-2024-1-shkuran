@@ -23,25 +23,20 @@ main {
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
 
-.navbar ul {
-    margin: 0;
-    list-style: none;
-    padding: 0;
-}
-
-.navbar li {
-    display: inline;
-    margin-right: 10px;
-}
-
+/* navbar (header) - common */
 .navbar a {
-    color: black;
+    color: #f7f6f2c5;
     text-decoration: none;
 }
 
-.navbar a:hover {
-    color: rgb(67, 67, 67);
+.logo a {
+    color: black !important;
+    font-weight: 450 !important;
 }
+
+/* .navbar a:hover {
+    color: #f7f6f2c5;
+} */
 
 header {
     padding: 20px 0;
@@ -87,6 +82,7 @@ p {
     
 }
 
+/* sidebar (categories) */
 aside {
     display: block;
 }
@@ -165,6 +161,8 @@ button:active {
     background-color:  rgba(32, 20, 11, 0.688); /* еще темнее при нажатии */
 }
 
+
+/* main (catalog) */
 .header-sort {
     display: flex;
     justify-content: space-between;
@@ -255,3 +253,66 @@ button:active {
 .add-to-cart-btn {
     margin-top: auto !important;
 }
+
+/* header */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* Поисковая строка */
+.search-bar {
+    display: flex;
+    align-items: center;
+    flex: 0.7;
+    width: 40%;
+    justify-content: center;
+    gap: 0;
+}
+
+.search-input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.search-btn {
+    margin: 0;
+    width: 10%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* управление пользователем */
+.user-controls {
+    width: 10%;
+    margin: 0;
+}
+
+/* .cart, .profile {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+}
+
+.cart .icon, .profile .icon {
+    font-size: 18px;
+    color: #555;
+} */
