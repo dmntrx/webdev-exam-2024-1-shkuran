@@ -179,19 +179,19 @@
                 "rating": 4.8
             },
             {
-                "title": "Kilian Old Fashioned Eau De Parfum 50ml",
-                "image": "images/kilian/kilian-oldfashioned.jpg",
-                "currentPrice": 26990,
-                "oldPrice": 27500,
-                "discount": true,
-                "rating": 4.6
-            },
-            {
-                "title": "Kilian Back To Black Eau De Parfum 50ml",
-                "image": "images/kilian/kilian-backtoblack.jpg",
+                "title": "Kilian Playnig With The Devil Eau De Parfum 50ml",
+                "image": "images/kilian/kilian-playingwiththedevil.jpg",
                 "currentPrice": 29500,
                 "discount": false,
-                "rating": 4.8
+                "rating": 4.9
+            },
+            {
+                "title": "Kilian Sunkissed Goddess Eau De Parfum 50ml",
+                "image": "images/kilian/kilian-sunkissedgoddess.jpg",
+                "currentPrice": 29000,
+                "oldPrice": 29500,
+                "discount": true,
+                "rating": 4.7
             }
         ]
     },
