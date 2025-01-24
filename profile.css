@@ -18,6 +18,10 @@
 
 main {
     flex: 1;
+    background-color: #f7f6f2c5;
+    padding: 20px;
+    margin: 0 5px;
+    border-radius: 1px;
 }
 
 .navbar a {
@@ -79,6 +83,11 @@ footer {
     display: flex;
     justify-content: center; /* горизонталь */
     align-items: center; /* вертикаль */
+}
+
+h3 {
+    margin: 0;
+    font-weight: 400;
 }
 
 button {
