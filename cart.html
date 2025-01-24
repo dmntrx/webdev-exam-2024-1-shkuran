@@ -25,8 +25,49 @@
             </div>
         </header>
 
+        <div id="notifications-area" class="notifications-area">Notifications</div>
+
         <main>
-            <div class="cart-container"></div>
+            <div class="content-area">
+                <h3>Cart</h3>
+                <p>Cart is empty. Please, add someting from catalog to make an order</p>
+                <div class="cart-container">
+                    
+                </div>
+
+                <div class="orders-container">
+                    <h3>Place an order</h3>
+                    <div class="place-order">
+                        <form>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                            
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+
+                            <label class="checkbox">
+                                <input type="checkbox" id="subscribe" name="subscribe" checked>
+                                <small>Subscribe to newsteller</small>
+                            </label>
+
+                            <label for="phone">Phone number</label>
+                            <input type="tel" id="phone" name="phone" required>
+
+                            <label for="address">Delivery address</label>
+                            <input type="text" id="address" name="address" required>
+
+                            <label for="time">Delivery time</label>                    
+                            <input type="time" id="time" name="time" min="07:00" max="23:00" step="300" required>
+
+                            <br>
+                            <br>
+                            <button class="form-btn" type="reset">Сбросить</button>
+                            <button class="form-btn" type="submit">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
         </main>
 
 

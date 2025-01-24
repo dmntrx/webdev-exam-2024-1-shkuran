@@ -18,6 +18,10 @@
 
 main {
     flex: 1;
+    background-color: #f7f6f2c5;
+    padding: 20px;
+    margin: 0 5px;
+    border-radius: 1px;
 }
 
 .navbar a {
@@ -79,6 +83,11 @@ footer {
     display: flex;
     justify-content: center; /* горизонталь */
     align-items: center; /* вертикаль */
+}
+
+h3 {
+    margin: 0;
+    font-weight: 400;
 }
 
 button {
@@ -180,3 +189,50 @@ button:active {
     color: #b43123; /* красный цвет для скидки */
     font-weight: 500;
 }
+
+/* order */
+/* form {
+    display: flex;
+    justify-content: space-between;
+  } */
+
+  .place-order {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+    /* justify-items: center; */
+    column-gap: 10px;
+  }
+
+  label {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
+  .checkbox {
+    margin-top: 3px;
+  }
+
+  select, input, textarea {
+    width: 70%;
+    padding: 8px;
+    margin-bottom: 20x;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 14px;
+    background-color: #d5d3d3;
+  }
+  
+  input[type="checkbox"],
+  input[type="radio"] {
+    width: 10px;
+    height: 10px; 
+    margin-right: 10px; 
+    transform: scale(1.2);
+  }
+
+  .form-btn {
+    width: 30%;
+  }
