@@ -1,17 +1,46 @@
 import { fetchProducts } from './fetchProducts.js';
 import { renderProducts } from './renderProducts.js';
+import { addToCart } from './cart.js';
 
-let productCards = []; // Глобальная переменная для карточек
+let productCards = []; // Глобальная переменная для карточек товаров
 
 async function init() {
-    const data = await fetchProducts();
-    renderProducts(data);
+    const productsContainer = document.querySelector('.products-container'); // Контейнер для товаров
+    const products = await fetchProducts(); // Загружаем данные о товарах
 
-    // Обновляем массив карточек после рендера
-    productCards = Array.from(document.querySelectorAll(".product-card"));
+    renderProducts(products, productsContainer); // Отображаем товары
+
+    // Обновляем глобальный массив карточек товаров после рендера
+    productCards = Array.from(productsContainer.querySelectorAll('.product-card'));
+
+    // Добавляем обработчик кликов для кнопок "Add to cart"
+    productsContainer.addEventListener('click', (event) => {
+        if (event.target.classList.contains('add-to-cart-btn')) {
+            const card = event.target.closest('.product-card'); // Получаем карточку товара
+
+            // Извлекаем значение из data-price
+            const priceString = card.dataset.price;
+            console.log('Значение card.dataset.price:', priceString); // Выводим значение, которое извлекаем из data-price
+
+            // Преобразуем в число
+            const price = parseFloat(priceString);
+            console.log('Цена после parseFloat:', price); // Выводим результат parseFloat
+
+            const product = {
+                id: card.dataset.id,
+                title: card.querySelector('.product-title').textContent,
+                image: card.querySelector('.product-image').src,
+                price: parseFloat(card.dataset.price),
+            };
+            console.log('Цена установлена в data-price:', product.price);
+            addToCart(product); // Добавляем товар в корзину
+        }
+    });
 }
 
 init();
+
+
 
 document.addEventListener("DOMContentLoaded", function () {
     const productsContainer = document.querySelector(".products-container");

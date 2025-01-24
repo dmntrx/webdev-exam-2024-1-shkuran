@@ -16,8 +16,16 @@ export function renderProducts(data) {
         category.products.forEach(product => {
             const productCard = document.createElement('div');
             productCard.className = 'product-card';
-            productCard.setAttribute('data-category', category.category);
-            productCard.setAttribute('data-price', parseFloat(product.currentPrice)); // Преобразуем цену в число
+            productCard.setAttribute('data-category', category.category);   
+            // console.log('currentPrice:', product.currentPrice); // Выводим значение currentPrice
+
+            // productCard.setAttribute('data-price', parseFloat(product.currentPrice)); // Преобразуем цену в число
+
+            // const price = parseFloat(product.currentPrice);
+            // // console.log('Цена для карточки:', price);
+            // productCard.setAttribute('data-price', price);
+            productCard.setAttribute('data-id', product.id); // Добавляем атрибут id
+            productCard.setAttribute('data-price', product.currentPrice); // Добавляем атрибут price
             productCard.setAttribute('data-discount', product.discount === true); // Преобразуем скидку в булево значение
 
             productCard.innerHTML = `
@@ -28,7 +36,7 @@ export function renderProducts(data) {
                     ${
                         product.discount
                             ? `<span class="old-price">${product.oldPrice} ₽</span>
-                               <span class="new-price">${product.currentPrice} ₽</span>`
+                            <span class="new-price">${product.currentPrice} ₽</span>`
                             : `<span class="current-price">${product.currentPrice} ₽</span>`
                     }
                 </div>
