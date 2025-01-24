@@ -1,0 +1,182 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* высота страницы на весь экран */
+    overflow: visible;
+  }
+  
+  body {
+    background-color: rgba(32, 20, 11, 0.488);
+}
+
+main {
+    flex: 1;
+}
+
+.navbar a {
+    color: #f7f6f2c5;
+    text-decoration: none;
+}
+
+header {
+    padding: 20px 0;
+    justify-items: center;
+    text-align: center;
+    background-color: #f7f6f2c5;
+    border-radius: 1px;
+}
+
+/* header */
+.container {
+    max-width: 1200px;
+    max-height: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* управление пользователем */
+
+.user-controls {
+    width: 10%;
+    margin: 0;
+    right: 20px;
+}
+
+footer {
+    background-color: rgb(67, 67, 67);
+    color: #f7f6f2c5;
+    padding: 20px 0;
+    /* margin-top: auto; */
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 1px;
+}
+
+.logo a {
+    color: black;
+    font-weight: 470 !important;
+    font-size: 17px !important;
+}
+
+.notifications-area {
+    min-height: 40px;
+    margin: 5px;
+    display: flex;
+    justify-content: center; /* горизонталь */
+    align-items: center; /* вертикаль */
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: rgba(32, 20, 11, 0.488);
+    color: #f7f6f2c5;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* кнопка на всю ширину контейнера */
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:  rgba(32, 20, 11, 0.588); /* более темный оттенок при наведении */
+}
+
+button:active {
+    background-color:  rgba(32, 20, 11, 0.688); /* еще темнее при нажатии */
+}
+
+/* контейнер для товаров */
+.cart-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* карточка товара */
+.product-card {
+    display: flex;
+    flex-direction: column; /* располагаем элементы вертикально */
+    justify-content: space-between; /* распределяем элементы */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-height: 300px;
+    position: relative;
+}
+
+.add-to-cart-btn {
+    margin-top: auto;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* контейнер изображения */
+.product-image {
+    width: 100%; /* ширина равна ширине карточки */
+    height: 200px; /* фиксированная высота для всех изображений */
+    object-fit: contain; /* изображение масштабируется, сохраняя пропорции */
+    /* background-color: #f8f8f8; */
+    background-color: #fff;
+     /* фон для пустого пространства */
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* название товара */
+.product-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+/* рейтинг товара */
+.product-rating {
+    font-size: 14px;
+    color: #c1821c; /* цвет звезд */
+    margin-bottom: 10px;
+}
+
+/* цена товара */
+.product-price {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.product-price .old-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 10px;
+}
+
+.product-price .new-price {
+    color: #b43123; /* красный цвет для скидки */
+    font-weight: 500;
+}

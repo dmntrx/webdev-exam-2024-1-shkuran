@@ -31,10 +31,6 @@ main {
     text-decoration: none;
 }
 
-/* .navbar a:hover {
-    color: #f7f6f2c5;
-} */
-
 header {
     padding: 20px 0;
     justify-items: center;
@@ -320,4 +316,25 @@ button:active {
 /* отображение товаров (js) */
 .hidden {
     display: none;
+}
+
+/* окно поиска */
+.autocomplete-results {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 100%;
+    z-index: 10;
+    display: none; /* скрыто по умолчанию */
+}
+
+.autocomplete-results div {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.autocomplete-results div:hover {
+    background-color: #f0f0f0;
 }
